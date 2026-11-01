@@ -51,5 +51,4 @@ form.addEventListener('submit', event => {
       const localTime = new Date().toLocaleTimeString('uk-UA');
       row.textContent += ` · ${localTime}`;
     });
-  form.reset();
 });
